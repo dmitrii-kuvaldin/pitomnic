@@ -1,0 +1,27 @@
+.image {
+ width: 400px; 
+   
+}
+
+.image:hover {
+    width: 500px;
+    position: sticky;
+    z-index: 3;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+ list-style: none;
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+
+.productList {
+    display: flex;
+    justify-content: center;
+    
+}

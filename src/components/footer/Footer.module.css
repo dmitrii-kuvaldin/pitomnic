@@ -1,0 +1,56 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 234, 229);
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+
+.fab fa-instagram {
+    color:rgb(0, 255, 64)
+}
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    /* margin: 30px; */
+    padding:20px;
+    box-sizing: border-box;
+   
+  }
+.socialLinks a {
+   color: rgb(95, 77, 52);
+   text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    transition: color 0.3s, font-size 0.3s;
+    margin:6px;
+    
+    
+}
+.container {
+    margin: 40px;
+    font-size: small;
+   
+}
+.text {
+    font-size: larger;
+}
+.socialLinks a:hover {
+    color: #4cb30d; 
+    font-size: 30px; 
+  }
+  .textStart {
+    font-size: 24px;
+  }
+
+  .textStart:hover {
+    font-size: 22px;
+  }
+  .textStart:hover {
+    color: #36780d;
+    font-size: 18px;
+    position: static;
+    z-index: 3;
+  }
